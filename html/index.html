@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Jorge Enrique Parra Garcia">
+    <meta name="descripcion" content="Manejo de Bootstrap - Adaptación">
+    <meta name="keywords" content="bootstrap, clases, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Bootstrap - Vacaciones</title>
+    <!-- CSS de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+</head>
+<body style="scroll-behavior: smooth;">
+
+    <!-- header -->
+    <header class="vh-100 d-flex flex-column justify-content-between text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imagenes/ciudad.jpg') no-repeat center center / cover;">
+        
+        <div class="d-flex flex-column justify-content-center h-100">
+            <h1 class="text-white fw-bold display-1" style="text-shadow: 0 0 25px #000;">MEXICO</h1>
+            <span class="text-white fs-2" style="text-shadow: 0 0 20px #000;">Explora Mexico y el Mundo</span>
+        </div>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid justify-content-center">
+                <div class="navbar-nav w-100 d-flex justify-content-around">
+                    <a class="nav-link text-white fs-4 fw-semibold border w-100 text-center py-4" href="#vuelos">Vuelos</a>
+                    <a class="nav-link text-white fs-4 fw-semibold border w-100 text-center py-4" href="#hoteles">Hoteles</a>
+                    <a class="nav-link text-white fs-4 fw-semibold border w-100 text-center py-4" href="#tours">Tours</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- vuelos y vacaciones -->
+    <section id="vuelos" class="container py-5">
+        <h2 class="text-center text-dark mb-5 fw-bold display-5">Las Vacaciones de mi Vida</h2>
+        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 mb-4 mb-md-0 text-center">
+                <img src="../imagenes/templo.jpg" alt="Vamonos de Vacaciones" class="img-fluid rounded shadow w-100" style="max-width: 750px;">
+            </div>
+            <div class="col-md-6">
+                <p class="fs-6 lh-lg text-secondary">
+                    <span class="float-start fw-bold text-dark me-2" style="font-size: 4rem; line-height: 0.8;">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tempora suscipit enim mollitia adipisci optio odit similique repudiandae 
+                    saepe placeat aperiam, ad voluptate, magnam, laudantium nesciunt. 
+                    Soluta nam adipisci eligendi debitis placeat voluptas error, aut 
+                    voluptates deserunt reprehenderit repellat ea quibusdam ratione 
+                    consequuntur rerum cupiditate! Laboriosam, ratione vitae! Ea atque 
+                    illo blanditiis facere dolor exercitationem, voluptas nesciunt mollitia, 
+                    error qui hic suscipit sunt expedita rerum amet non nisi voluptates, 
+                    nihil temporibus porro inventore incidunt dolorem? Corrupti ab iure 
+                    blanditiis cupiditate et est ad sapiente aliquid qui aut accusamus, 
+                    maxime quia quas voluptatum nisi, magni itaque necessitatibus, asperiores 
+                    quisquam. Maiores, dicta reprehenderit.
+                </p>
+            </div>
+        </div>
+
+        <!-- seccion servicios -->
+        <article class="row text-center mt-5">
+            <div class="col-md-4 mb-4">
+                <span class="text-info fw-bold d-block mb-3" style="font-size: 3rem;">HOME</span>
+                <p class="text-dark lh-base px-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugiat facere sint omnis incidunt iste, blanditiis nulla 
+                    velit illo nobis vitae sequi voluptatum eligendi corporis 
+                    fugit voluptas ab, obcaecati earum facilis.
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <span class="text-info fw-bold d-block mb-3" style="font-size: 3rem;">CARRITO</span>
+                <p class="text-dark lh-base px-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugiat facere sint omnis incidunt iste, blanditiis nulla 
+                    velit illo nobis vitae sequi voluptatum eligendi corporis 
+                    fugit voluptas ab, obcaecati earum facilis.
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <span class="text-info fw-bold d-block mb-3" style="font-size: 3rem;">QUIENES</span>
+                <p class="text-dark lh-base px-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugiat facere sint omnis incidunt iste, blanditiis nulla 
+                    velit illo nobis vitae sequi voluptatum eligendi corporis 
+                    fugit voluptas ab, obcaecati earum facilis.
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <!-- seccion hoteles -->
+    <section id="hoteles" class="d-flex justify-content-center align-items-center my-4" style="height: 1000px; background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../imagenes/teotihuacan.jpg') no-repeat center center fixed; background-size: cover;">
+        <h1 class="text-white fw-bold" style="font-size: 4rem;">DESTINOS</h1>
+    </section>
+
+    <!-- seccion tours -->
+    <section id="tours" class="d-flex justify-content-center align-items-center my-4" style="height: 1000px; background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../imagenes/desierto.jpg') no-repeat center center fixed; background-size: cover;">
+        <h1 class="text-white fw-bold" style="font-size: 4rem;">NACIONALES</h1>
+    </section>
+
+    <!-- Script de Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
